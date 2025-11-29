@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #ddd;
+    border-color: rgb(9, 157, 161);
+    box-shadow: 0px 0px 6px #099da1;
+    flex-wrap: wrap;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav a{
+    flex: 1;
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+}
