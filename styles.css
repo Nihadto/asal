@@ -35,3 +35,56 @@ nav a{
       text-decoration: none;
       color: #333;
 }
+/*Welcome Section*/
+
+.welcome{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 19.5rem;
+    background-image: url('./image/bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.welcomeText {
+      flex: 1;
+      width: 50%;
+      max-width: 100%;
+      padding-left: 2%;
+      padding-top: 2rem;
+    }
+
+.welcomeText h1 {
+      color: black;
+      font-size: 3.3rem;
+      padding-bottom: 2rem;
+      line-height: 1;
+}
+
+.welcomeText p{
+      padding-bottom: 3rem;
+      width: 90%;
+}
+
+.welcome img {
+      flex: 1;
+      max-width: 100%;
+      height: auto;
+}
+
+.learnMoreButton{
+    background-color: #099da1;
+    color: white;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* end of Welcome Section*/
