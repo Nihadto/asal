@@ -88,3 +88,42 @@ nav a{
     cursor: pointer;
 }
 /* end of Welcome Section*/
+/*.Services Section.*/
+
+.services{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.services .card{
+    width: 260px;
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 6px #099da1;
+    column-gap: 1rem;
+}
+
+.cardIcon{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.cardTitle{
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+.cardDesc{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 3%;
+    width: 99%;
+}
+/* end of Services Section*/
