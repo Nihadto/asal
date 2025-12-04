@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+p
+{
+    font-size: larger;
+}
 
 body {
     display: flex;
@@ -60,7 +64,7 @@ nav a{
 
 .welcomeText h1 {
       color: black;
-      font-size: 3.3rem;
+      font-size: 4rem;
       padding-bottom: 2rem;
       line-height: 1;
 }
