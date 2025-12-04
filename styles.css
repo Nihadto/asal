@@ -160,3 +160,174 @@ nav a{
 }
 
 /* end of About Section*/
+.featureBookTitle {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.featureBook {
+    text-align: center;
+  padding: 2.5rem 1.5rem;
+  background-color: #f3f4f6;
+  width: 100%;
+}
+
+.bookContainer {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.under-pp
+{
+    padding-bottom: 12%;
+}
+
+.new-arr {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.new-arr h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.book-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.bookCard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: calc(20% - 20px); /* Adjust for spacing */
+    min-width: 200px; /* Ensure minimum width */
+    max-width: 300px; /* Ensure maximum width */
+}
+
+.book-card:hover {
+    transform: scale(1.05);
+}
+
+.bookImg {
+  padding-top: 5px;
+  width: 60%;
+  height: 11rem;
+  object-fit: cover;
+  padding-bottom: 1rem;
+  margin-left: 2.5rem;
+}
+
+.book-card h2 {
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #099da1; 
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #067276; 
+  cursor: pointer;
+}
+
+.book-card {
+  flex: none;
+  scroll-snap-align: start;
+  width: 12rem;
+  background-color: #ffffff;
+  border-style: solid;
+  border-color: #4b5563;
+  border-width: 1.5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  padding-bottom: 20px;
+}
+
+.book-card:hover {
+  transform: translateY(-4px);
+}
+
+.book-img{
+    padding-top: 5px;
+  width: 60%;
+  height: 11rem;
+  object-fit: cover;
+  padding-bottom: 1rem;
+}
+
+.book-title {
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: #1f2937;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-bottom: 0.7rem;
+}
+
+.book-author {
+  font-size: 0.875rem;
+  color: #4b5563;
+  padding-bottom: 0.5rem;
+}
+
+.book-type{
+    color: #099da1;
+    font-size: 14px;
+    padding-bottom: 0.5rem;
+}
+
+.price-changed{
+    font-size: 14px;
+    padding-bottom: 0.5rem;
+}
+
+
+.book-card button {
+    display: block;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+    font-size: 0.9rem;
+    background-color: #fff;
+    border: 2px solid #099da1;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 3.2rem;
+}
+
+.book-card button:hover {
+    background-color: #099da1;
+    color: #fff;
+}
+
+
