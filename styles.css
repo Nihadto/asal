@@ -219,9 +219,9 @@ nav a{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease;
-    width: calc(20% - 20px); /* Adjust for spacing */
-    min-width: 200px; /* Ensure minimum width */
-    max-width: 300px; /* Ensure maximum width */
+    width: calc(20% - 20px); 
+    min-width: 200px; 
+    max-width: 300px; 
 }
 
 .book-card:hover {
