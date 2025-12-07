@@ -334,5 +334,63 @@ nav a{
     background-color: #099da1;
     color: #fff;
 }
+/* review section */
+.reviews-title{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 40px;
+}
 
+.reviews{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5rem;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.reviews .card{
+    box-shadow: 0px 0px 6px #099da1;
+    width: 323px;
+    padding: 15px;
+}
+
+.card-profile-img{
+    border: none;
+    width: 80px;
+    border-radius: 50px;
+}
+
+.reviews .card .card-head div h3{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.reviews .card .card-head div i{
+    font-size: 80px;
+    padding-top: 20px;
+}
+
+.card-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-para{
+    font-size: 15px;
+}
+
+.card-rates{
+    padding-top: 4px;
+    padding-bottom: 10px;
+}
+.card-rates-arrr{
+    padding-top: 4px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+/* end of review section */
 
