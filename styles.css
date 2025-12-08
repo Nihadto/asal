@@ -1,3 +1,46 @@
+/*style for dark and light mode*/
+/* ---------- THEME TOGGLE BUTTON ---------- */
+#theme-toggle {
+  position:absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  border: none;
+  background: #333;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 14px;
+  z-index: 999;
+}
+
+/* ---------- LIGHT MODE (default) ---------- */
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+  --card: #f5f5f5;
+}
+
+/* Apply variables */
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Example for cards or sections */
+.card {
+  background: var(--card);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* ---------- DARK MODE ---------- */
+.dark-theme {
+  --bg: #121212;
+  --text: #ffffff;
+  --card: #1f1f1f;
+}
+/* end of style for dark and light mode*/
 *{
     margin: 0;
     padding: 0;
