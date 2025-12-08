@@ -394,3 +394,26 @@ nav a{
 }
 /* end of review section */
 
+.digital-book{
+    width: 100%;
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+    background-image: url('./image/banner.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.learn-more-button-digital{
+    background-color: #099da1;
+    color: white;
+    border: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 11%;
+    margin-left: 7%;
+}
