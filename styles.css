@@ -510,5 +510,52 @@ nav a{
     display: flex;
     justify-content: space-between;
 }
+/*blog section */
+.our-blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 120px;
+    row-gap: 20px;
+    padding-bottom: 3rem;
+}
+
+.our-blog .card{
+    width: 350px;
+    height: 450px;
+    box-shadow: 0px 0px 10px #c3c3c3;
+}
+
+.ourBlogTitle{
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.our-blog h3{
+    color: #099da1;
+    font-size: 24px;
+    padding-bottom: 15px;
+
+}
+
+.blog-img{
+    width: 350px;
+    height: 250px;
+}
+.card-padding{
+    padding: 15px;
+}
+
+.iconespace{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* end of blog section */
 
 
