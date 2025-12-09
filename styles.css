@@ -661,5 +661,177 @@ nav a{
     color: #00b4d8;
 }
 /* end of footer section */
+/* Responsive Design */
+@media screen and (max-width: 1200px) {
+    .bookCard {
+        width: calc(25% - 20px);
+    }
+    
+    .aboutUs div {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .welcomeText {
+        width: 100%;
+        text-align: center;
+        padding: 0 2rem;
+    }
+
+    .welcomeText h1 {
+        font-size: 2.8rem;
+    }
+
+    .welcome img {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .bookCard {
+        width: calc(33.33% - 20px);
+    }
+
+    .aboutUs {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .aboutUs div {
+        width: 100%;
+        padding: 2rem 0;
+    }
+
+    .aboutUs img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer-section {
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    nav {
+        margin-top: 1rem;
+        width: 100%;
+        justify-content: center;
+    }
+
+    nav a {
+        margin: 0.5rem;
+    }
+
+    .welcomeText h1 {
+        font-size: 2.2rem;
+    }
+
+    .bookCard {
+        width: calc(50% - 20px);
+    }
+
+    .services .card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .reviews .card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .our-blog .card {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    .blog-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .welcomeText h1 {
+        font-size: 1.8rem;
+    }
+
+    .bookCard {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .bookImg {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .book-card button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .newsletter-container {
+        width: 90%;
+    }
+
+    .aboutUs div h2 {
+        font-size: 32px;
+    }
+
+    .reviews-title {
+        font-size: 32px;
+    }
+
+    .ourBlogTitle {
+        font-size: 36px;
+    }
+}
+
+/* Fix for mobile navigation */
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 0.5rem 0;
+    }
+}
+
+/* Fix for book grid on mobile */
+@media screen and (max-width: 576px) {
+    .book-grid {
+        gap: 15px;
+        padding: 15px;
+    }
+}
+
+/* Fix for welcome section padding on mobile */
+@media screen and (max-width: 768px) {
+    .welcome {
+        padding-top: 4rem;
+        padding-bottom: 10rem;
+    }
+}
+/* end of Responsive Design */
 
 
